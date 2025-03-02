@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist', // Define a pasta de saída correta
+        emptyOutDir: true, // Garante que a pasta seja limpa antes de cada build
+    }
 });
